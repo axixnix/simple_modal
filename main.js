@@ -29,7 +29,6 @@ window.addEventListener('click', clickOutside)
 // function to close modal if it is being displayed and a click occurs out it
 function clickOutside (e) {
   if (e.target == modal) {
-    console.log('registered a click')
     modal.style.display = 'none'
   }
 }
